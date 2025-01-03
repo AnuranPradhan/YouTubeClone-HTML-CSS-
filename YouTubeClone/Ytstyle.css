@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    color:black;
+}
+#icon{
+    font-size: x-large;
+    padding-top: 23px;
+     margin-right: 45px; 
+     margin-left: 20px;
+}
+.searchbar{
+    width: 650px;
+    text-align: center;
+    padding-top: 12px;
+    display: flex; 
+    margin-left: 20px;
+}
+.icon2{
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    height: 26.7px;
+    width: 40px;
+    font-size: large;
+    padding-top: 13px;
+    padding-right: 15px;
+    background-color: #f3f3f3;
+    border: 0.5px solid gray;
+}
+.icon2 i{
+    margin-left: 15px;
+}
+#bar{
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+}
+.bar-main{
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    height: 40px;
+    width: 500px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid gray;
+}
+.navber{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-first{
+    height: 60px;
+    width: 200px;
+    display:flex;
+    justify-content: center;
+}
+.logo{
+background-image: url("yt-logo.jpg");
+height: 60px;
+width: 120px;
+background-size: cover;
+}
+.icon3{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    height: 40px;
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
+}
+.icon3 i{
+    margin-top: 10px;
+}
+.nav-last{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 250px;
+}
+.icons{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-left: 19px;
+    margin-right: 5px;
+}
+.icons i{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.part1{
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#account{
+    background-color:  #b3b3b3;
+}
+.panel{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: medium;
+    background-color: #f3f3f3;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+.panel h4{
+    margin-top: 8px;
+}
+.part2{
+    height: 700px;
+    display: flex;
+    width: 1500px;
+    flex-wrap: wrap;
+    
+}
+.thumb1{
+    background-color: white;
+    height:320px;
+    width: 23.5%;
+    margin-top: 10px;
+}
+.box1{
+    background-size: cover;
+    background-color: yellow;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+}
+.box1-p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.box1-para{
+    margin-top: 5px;
+}
+.box1-p h4{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: medium;
+}
+.box1-end i{
+    margin-left: 20px;
+}
+.box1-end{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    height: 80px;
+}
+#thumb-icon{
+    background-image: url(marvel-logo.avif);
+    background-size:cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.body2{
+    height: 840px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.side-panel{
+
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 60px;
+    border-radius: 5px;
+}
+.body-main{
+    display: flex;
+    
+}
